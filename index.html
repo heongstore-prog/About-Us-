@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Heong Arena</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --accent-color: #38bdf8;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border-color: #334155;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 1.5rem 1rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            color: var(--accent-color);
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        section {
+            background-color: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 12px;
+            margin-bottom: 1.5rem;
+            border: 1px solid var(--border-color);
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+        }
+
+        p {
+            color: var(--text-main);
+            margin-bottom: 1rem;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        .grid-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 0.75rem;
+            list-style: none;
+        }
+
+        .grid-list li {
+            background-color: rgba(56, 189, 248, 0.05);
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            border: 1px solid rgba(56, 189, 248, 0.2);
+            font-size: 0.95rem;
+        }
+
+        .contact-card {
+            text-align: center;
+        }
+
+        .email-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: bold;
+            word-break: break-all;
+        }
+
+        .email-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>About Us</h1>
+            <p class="subtitle">Heong Arena — Esports & Tournament Platform</p>
+        </header>
+
+        <main>
+            <section>
+                <h2>About Heong Arena</h2>
+                <p>Heong Arena is a mobile-first esports and tournament platform built to provide gamers with a simple and organized way to discover tournaments, participate in events, manage registrations, and keep track of their gaming activities.</p>
+                <p>Our goal is to create a reliable platform where players can discover competitive gaming opportunities and tournament organizers can manage tournaments and registrations efficiently.</p>
+            </section>
+
+            <section>
+                <h2>What We Offer</h2>
+                <ul class="grid-list">
+                    <li>Esports tournaments</li>
+                    <li>Tournament registration</li>
+                    <li>Online payment processing</li>
+                    <li>Gaming events</li>
+                    <li>Tournament announcements</li>
+                    <li>User profiles</li>
+                    <li>Game details</li>
+                    <li>Registration history</li>
+                    <li>Payment history</li>
+                    <li>Notifications</li>
+                    <li>Account management</li>
+                </ul>
+                <p style="margin-top: 1rem;">Tournament information, event information, and announcements are managed through our platform and displayed dynamically to users.</p>
+            </section>
+
+            <section>
+                <h2>Our Approach</h2>
+                <p>We focus on building a platform that is simple, mobile-friendly, transparent, secure, easy to use, and deeply focused on the gaming community.</p>
+                <p>We use modern technologies and security practices to help protect user accounts, payments, and platform data.</p>
+            </section>
+
+            <section>
+                <h2>Payments</h2>
+                <p>Where paid tournament registrations are offered, payments are processed through supported payment providers such as Razorpay.</p>
+                <p>Payment verification is handled through secure backend processing to help ensure that registrations are created only after successful payment verification.</p>
+            </section>
+
+            <section>
+                <h2>Our Community</h2>
+                <p>We want Heong Arena to be a positive and competitive environment for gamers. Players are expected to follow tournament rules, respect other participants, and use the platform responsibly.</p>
+            </section>
+
+            <section class="contact-card">
+                <h2>Contact Us</h2>
+                <p>For questions, support, or business-related enquiries:</p>
+                <a href="mailto:heongbuisnesspvt.ltd@gmail.com" class="email-link">heongbuisnesspvt.ltd@gmail.com</a>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; Heong Arena. Esports & Tournament Platform.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
