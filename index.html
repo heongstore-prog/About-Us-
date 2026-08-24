@@ -5,178 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Heong Arena</title>
     <style>
-        :root {
-            --bg-color: #0f172a;
-            --card-bg: #1e293b;
-            --accent-color: #38bdf8;
-            --text-main: #f8fafc;
-            --text-muted: #94a3b8;
-            --border-color: #334155;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-main);
+            font-family: Arial, sans-serif;
             line-height: 1.6;
-            padding: 1.5rem 1rem;
-        }
-
-        .container {
+            color: #333333;
             max-width: 800px;
             margin: 0 auto;
+            padding: 20px;
         }
-
-        header {
-            text-align: center;
-            margin-bottom: 2.5rem;
-            padding-bottom: 1.5rem;
-            border-bottom: 1px solid var(--border-color);
-        }
-
         h1 {
-            font-size: 2.2rem;
-            color: var(--accent-color);
-            margin-bottom: 0.5rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+            color: #1a1a1a;
+            border-bottom: 2px solid #eeeeee;
+            padding-bottom: 10px;
         }
-
-        .subtitle {
-            font-size: 1.1rem;
-            color: var(--text-muted);
-            font-weight: 500;
-        }
-
-        section {
-            background-color: var(--card-bg);
-            padding: 1.5rem;
-            border-radius: 12px;
-            margin-bottom: 1.5rem;
-            border: 1px solid var(--border-color);
-        }
-
         h2 {
-            font-size: 1.4rem;
-            color: var(--accent-color);
-            margin-bottom: 1rem;
+            color: #2c3e50;
+            margin-top: 24px;
         }
-
-        p {
-            color: var(--text-main);
-            margin-bottom: 1rem;
+        ul {
+            margin-bottom: 16px;
         }
-
-        p:last-child {
-            margin-bottom: 0;
+        li {
+            margin-bottom: 6px;
         }
-
-        .grid-list {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 0.75rem;
-            list-style: none;
+        .contact-card, .grievance-card {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            border-left: 4px solid #0066cc;
         }
-
-        .grid-list li {
-            background-color: rgba(56, 189, 248, 0.05);
-            padding: 0.75rem 1rem;
-            border-radius: 8px;
-            border: 1px solid rgba(56, 189, 248, 0.2);
-            font-size: 0.95rem;
+        .contact-card p, .grievance-card p {
+            margin: 4px 0;
         }
-
-        .contact-card {
-            text-align: center;
-        }
-
-        .email-link {
-            display: inline-block;
-            margin-top: 0.5rem;
-            color: var(--accent-color);
+        a {
+            color: #0066cc;
             text-decoration: none;
-            font-weight: bold;
-            word-break: break-all;
         }
-
-        .email-link:hover {
+        a:hover {
             text-decoration: underline;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 2rem;
-            color: var(--text-muted);
-            font-size: 0.9rem;
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <header>
-            <h1>About Us</h1>
-            <p class="subtitle">Heong Arena — Esports & Tournament Platform</p>
-        </header>
+    <h1>About Us</h1>
 
-        <main>
-            <section>
-                <h2>About Heong Arena</h2>
-                <p>Heong Arena is a mobile-first esports and tournament platform built to provide gamers with a simple and organized way to discover tournaments, participate in events, manage registrations, and keep track of their gaming activities.</p>
-                <p>Our goal is to create a reliable platform where players can discover competitive gaming opportunities and tournament organizers can manage tournaments and registrations efficiently.</p>
-            </section>
+    <h2>About Heong Arena</h2>
+    <p>Heong Arena is an online gaming platform designed to bring gaming tournaments, events, digital gaming products, useful gaming tools and player-focused services together in one place.</p>
+    <p>Our goal is to provide gamers with a simple and convenient platform where they can discover tournaments, participate in gaming activities, access digital gaming products and stay updated through announcements and notifications.</p>
+    <p>Our platform currently provides features including gaming tournaments, a digital gaming store, gaming events, useful tools, user accounts and player services.</p>
 
-            <section>
-                <h2>What We Offer</h2>
-                <ul class="grid-list">
-                    <li>Esports tournaments</li>
-                    <li>Tournament registration</li>
-                    <li>Online payment processing</li>
-                    <li>Gaming events</li>
-                    <li>Tournament announcements</li>
-                    <li>User profiles</li>
-                    <li>Game details</li>
-                    <li>Registration history</li>
-                    <li>Payment history</li>
-                    <li>Notifications</li>
-                    <li>Account management</li>
-                </ul>
-                <p style="margin-top: 1rem;">Tournament information, event information, and announcements are managed through our platform and displayed dynamically to users.</p>
-            </section>
+    <h2>Our Mission</h2>
+    <p>Our mission is to create a reliable, accessible and user-friendly gaming platform for players.</p>
+    <p>We aim to make tournament participation, gaming-related purchases and access to useful gaming services straightforward while maintaining transparency and responsible platform management.</p>
 
-            <section>
-                <h2>Our Approach</h2>
-                <p>We focus on building a platform that is simple, mobile-friendly, transparent, secure, easy to use, and deeply focused on the gaming community.</p>
-                <p>We use modern technologies and security practices to help protect user accounts, payments, and platform data.</p>
-            </section>
+    <h2>User Experience</h2>
+    <p>Heong Arena allows registered users to maintain a gaming profile containing information such as their username, WhatsApp number, avatar, IGN, Game ID and Zone/Server ID.</p>
+    <p>Users can also view their tournament history, store history and payment records through their profile.</p>
 
-            <section>
-                <h2>Payments</h2>
-                <p>Where paid tournament registrations are offered, payments are processed through supported payment providers such as Razorpay.</p>
-                <p>Payment verification is handled through secure backend processing to help ensure that registrations are created only after successful payment verification.</p>
-            </section>
+    <h2>Payments &amp; Verification</h2>
+    <p>Where payment verification is required, users may be asked to submit transaction information such as their UPI ID and UTR/transaction ID.</p>
+    <p>Payment records may be maintained for tournament registrations and store purchases to help verify transactions and provide customer support.</p>
 
-            <section>
-                <h2>Our Community</h2>
-                <p>We want Heong Arena to be a positive and competitive environment for gamers. Players are expected to follow tournament rules, respect other participants, and use the platform responsibly.</p>
-            </section>
+    <h2>Customer Support</h2>
+    <p>For general questions, payment issues, technical problems, account-related concerns or other support:</p>
+    <div class="contact-card">
+        <p><strong>Email:</strong> <a href="mailto:heongarena@gmail.com">heongarena@gmail.com</a></p>
+    </div>
 
-            <section class="contact-card">
-                <h2>Contact Us</h2>
-                <p>For questions, support, or business-related enquiries:</p>
-                <a href="mailto:heongbuisnesspvt.ltd@gmail.com" class="email-link">heongbuisnesspvt.ltd@gmail.com</a>
-            </section>
-        </main>
+    <h2>Grievance Redressal</h2>
+    <p>If you have a complaint regarding our services, privacy practices, account, payment, transaction, content or any other matter that you believe requires formal attention, you may contact our Grievance Officer.</p>
 
-        <footer>
-            <p>&copy; Heong Arena. Esports & Tournament Platform.</p>
-        </footer>
+    <div class="grievance-card">
+        <p><strong>Grievance Officer Details</strong></p>
+        <p><strong>Name:</strong> T Heong</p>
+        <p><strong>Designation:</strong> Grievance Officer, Heong Arena</p>
+        <p><strong>Email:</strong> <a href="mailto:heongarena@gmail.com">heongarena@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:9863380883">9863380883</a></p>
+        <p><strong>Address:</strong> Bahokward, Longleng, Nagaland - 798625</p>
+    </div>
+
+    <p>Please include the following information when submitting a grievance:</p>
+    <ul>
+        <li>Your name</li>
+        <li>Registered email address</li>
+        <li>Relevant transaction/order/tournament ID, if applicable</li>
+        <li>Description of the complaint</li>
+        <li>Supporting information or documents, if applicable</li>
+        <li>Your preferred method of contact</li>
+    </ul>
+    <p>We will review grievances and take appropriate action in accordance with applicable laws, our policies and the nature of the complaint.</p>
+
+    <h2>Important Notice</h2>
+    <p>Heong Arena may update its services, features, policies and contact information from time to time. Users should refer to the latest versions of our Privacy Policy, Terms &amp; Conditions and Refund &amp; Cancellation Policy published through the website.</p>
+
+    <div class="contact-card">
+        <p><strong>Heong Arena</strong></p>
+        <p><strong>Website:</strong> <a href="https://heongarena.online/" target="_blank" rel="noopener noreferrer">https://heongarena.online/</a></p>
+        <p><strong>Email:</strong> <a href="mailto:heongarena@gmail.com">heongarena@gmail.com</a></p>
     </div>
 
 </body>
